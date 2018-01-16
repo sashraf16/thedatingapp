@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ValueComponent } from './value/value.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+    ValueComponent
+],
   imports: [
     BrowserModule
   ],
