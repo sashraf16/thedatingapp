@@ -13,7 +13,7 @@ namespace datingapp.api.Data
             _context = context;
 
         }
-        public async Task<user> LoginAsync(string username, string password)
+        public async Task<user> Login(string username, string password)
         {
            var user = await _context.users.FirstOrDefaultAsync(x => x.username == username);
 
